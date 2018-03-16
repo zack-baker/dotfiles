@@ -1,0 +1,11 @@
+#!/bin/bash
+
+echo $1.tex
+
+pdflatex $1.tex
+
+mupdf $1.pdf
+
+rm $1.log
+rm $1.aux
+

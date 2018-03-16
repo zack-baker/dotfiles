@@ -1,0 +1,4 @@
+#!/bin/bash
+
+scrot -s --exec "mv \$f $HOME/Pictures/screenshots/; ln -f -s $HOME/Pictures/screenshots/\$n $HOME/Pictures/screenshots/latest.png";
+
