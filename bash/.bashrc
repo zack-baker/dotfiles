@@ -13,6 +13,10 @@ fi
 #alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
+#LSCOLORS
+LS_COLORS='di=94:fi=0:ex=32;1:ln=35'
+export LS_COLORS
+
 export EDITOR="vim"
 export PATH="$HOME/bin:$PATH"
 #export PS1="\e[0;31m[\u@\h \A (\!) \w]\$ \e[m"
