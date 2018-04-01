@@ -1,7 +1,8 @@
 [options]
 #font = Bitstream Vera Serif 16px
-font = xos4 Terminus 16px
+font = t cherry 13px
+#font = xos4 Terminus 16px
 [colors]
 foreground = #000000
 #background = rgba(63,63,63,0.9)
-background = rgba(255,255,255,0.5)
+background = rgba(255,255,255,0)
