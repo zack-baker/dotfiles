@@ -14,8 +14,12 @@ fi
 PS1='[\u@\h \W]\$ '
 
 #LSCOLORS
-LS_COLORS='di=94:fi=0:ex=32;1:ln=35'
-export LS_COLORS
+#LS_COLORS='di=94:fi=0:ex=32;1:ln=35'
+#export LS_COLORS
+
+EXA_COLORS='di=1;38;5;30:fi=0:ex=1;38;5;28:ln=35:*.md=1;40;37:Makefile=1;4;38;5;200:uu=1;38;5;105:ur=1;38;5;175:uw=1;38;5;23:ux=1;38;5;255:ue=1;38;5;171:gr=1;38;5;175:gw=1;38;5;23:gx=1;38;5;171:tr=1;38;5;175:tw=1;38;5;23:tx=1;38;5;171:sn=38;5;0:sb=38;5;0'
+export EXA_COLORS
+
 
 export EDITOR="vim"
 export PATH="$HOME/bin:$PATH"
