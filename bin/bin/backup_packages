@@ -1,0 +1,1 @@
+sudo tar -cjf $HOME/dots/pacman_database.tar.bz2 /var/lib/pacman/local
