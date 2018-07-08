@@ -49,7 +49,6 @@ exec --no-startup-id steam
 exec --no-startup-id discord
 exec --no-startup-id mpd
 exec --no-startup-id riot-desktop
-#exec --no-startup-id discord-canary
 # use these keys for focus, movement, and resize directions when reaching for
 # the arrows is not convenient
 set $up k
@@ -65,8 +64,8 @@ workspace 2 output DVI-I-1
 new_window pixel 2
 
 #border colors
-client.focused #50c878 #50c878 #50c878 #50c878 #50c878
-#client.focused #000000 #000000 #000000 #000000
+#client.focused #50c878 #50c878 #50c878 #50c878 #50c878
+client.focused #FF7777 #FF7777 #FF7777 #FF7777 #FF7777
 
 #force windows to certain workspaces
 for_window [class="Steam"] move container to workspace 5
